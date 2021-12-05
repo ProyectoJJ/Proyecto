@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.menú1{ 
+    font-family: arial;
+    font-size: 15px;
+    background-image: url(Fondo.png);
+  }
+.Cabeza{
+   margin: auto;
+   width: 500px;
+   background-color:lightgrey; 
+}
+ul,ol{
+    list-style: none;
+}
+.nav li a{
+    background-color:rgb(187, 45, 45);
+    color:white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a :hover{
+    background-color:rgb(6, 114, 255);
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover >ul{
+    display: block;
+}
