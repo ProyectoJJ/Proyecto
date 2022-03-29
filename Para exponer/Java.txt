@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> Ejercicio Java 1</title>
+</head>
+
+<body>
+    <script>
+        var x, y;
+        x = parseInt(prompt("ingrese la primera cordenada "));
+        y = parseInt(prompt("Ingrese la segunda cordenada "));
+        if (x > y ) {
+            alert("se encuentra en la parte izquierda de la pantalla");
+        } else {
+            if (x < y ) {
+                alert("se encuentra en la parte derecha de la pantalla");
+            } else{
+                if(x==y){
+                    alert("Se encuentra en la parte inferior izquierda");
+                }else{
+                    if(x == 0 && y == 0){
+                        alert("se encuentra en la parte inferior derecha");
+                    };
+                };
+            };
+        };
+    </script>
+</body>
+
+</html>
